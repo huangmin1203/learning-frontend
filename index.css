@@ -1,0 +1,58 @@
+html, body, div, p, span, a, li, ul, ol {
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+.header {
+    /* 背景色 */
+    background-color: #333; 
+    color: #fff;
+    height: 40px;
+}
+
+a { 
+    /* 字体颜色 */
+    color: #b0b0b0;
+    font-size: 12px;
+ }
+
+/* 鼠标悬停链接 */
+a:hover {
+    color: #fff;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+.sep{
+    color:#424242
+}
+
+.car_left{
+    /* img默认为内联元素，要改成块级元素 */
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.cart{
+    background-color: #424242;
+    display: flex;
+    height: 40px;
+    align-items: center;    
+}
+.cart:hover a{
+    color:orange;
+}
