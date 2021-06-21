@@ -59,3 +59,4 @@ https://www.w3school.com.cn/css/css3_flexbox.asp
 可以代替inline-block、浮动等布局方式
 
 
+![](./picture/day1_pic.png)
